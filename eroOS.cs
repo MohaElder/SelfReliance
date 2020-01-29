@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Collections;
 using RenderHeads.Media.AVProVideo;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class eroOS : MonoBehaviour
 {
@@ -14,11 +15,35 @@ public class eroOS : MonoBehaviour
         public bool Ending;
         public bool isImportant;
         public bool isNotImportant;
-        public bool isCorrect;
+        private bool isCorrect = false;
+        private bool isAnswered;
+
+        public void SetCorrect(bool choice)
+        {
+            isCorrect = choice;
+        }
+
+        public void SetAnswered(bool answer)
+        {
+            isAnswered = answer;
+        }
+
+        public bool Correct()
+        {
+            return isCorrect;
+        }
+
+        public bool Answered()
+        {
+            return isAnswered;
+        }
     }
 
     public MediaPlayer mp;
     public Clip[] clips;
+    public string SuperText;
+    public string StandardText;
+    public string FailedText;
     public Text scoreTextArea;
     public Text AchievementArea;
     private Clip selectedClip;
@@ -32,9 +57,8 @@ public class eroOS : MonoBehaviour
         InitClip();
     }
 
-    public void InitClip()
+    private void InitClip()
     {
-        Debug.LogWarning(saveNum);
         selectedClip = clips[saveNum];
         currentPlayNum = 0; //set playlist count to 0 (initialization)
         playVideo(selectedClip.PlayList[currentPlayNum]); //grab video playlist sequences under [saveNum] and play
@@ -45,36 +69,13 @@ public class eroOS : MonoBehaviour
         mp.OpenVideoFromFile(MediaPlayer.FileLocation.AbsolutePathOrURL, selectedUrl, true);
     }
 
-    public void showChoice()
+    private void showChoice()
     {
         currentPlayNum += 1;
         if (currentPlayNum < selectedClip.PlayList.Length)
-        {
-            playVideo(clips[saveNum].PlayList[currentPlayNum]);
-        }
-        else if (selectedClip.Ending)
-        {
-            GameOver();
-        }
-        else
-        {
-            selectedClip.choice.SetActive(true); //set choice active
-        }
-    }
-
-    public void OnVideoEvent(MediaPlayer mp, MediaPlayerEvent.EventType et, ErrorCode errorCode)
-    {
-        if (et == MediaPlayerEvent.EventType.FinishedPlaying)
-        {
-            Debug.Log("Finished Playing");
-            showChoice();
-        }
-    }
-
-    public void choose(int Num)
-    {
-        saveNum = Num;
-        InitClip();
+        {playVideo(clips[saveNum].PlayList[currentPlayNum]);}
+        else if (selectedClip.Ending){GameOver();}
+        else{selectedClip.choice.SetActive(true);} //set choice active
     }
 
     public void SkipVideo()
@@ -83,11 +84,52 @@ public class eroOS : MonoBehaviour
         showChoice();
     }
 
+    public void PauseVideo()
+    {
+        mp.Pause();
+    }
+
+    public void ResumeVideo()
+    {
+        mp.Play();
+    }
+
+    private void OnVideoEvent(MediaPlayer mp, MediaPlayerEvent.EventType et, ErrorCode errorCode)
+    {
+        if (et == MediaPlayerEvent.EventType.FinishedPlaying)
+        {
+            Debug.Log("Finished Playing");
+            showChoice();
+        }
+    }
+
+    public void ChooseRightAnswer(int Num)
+    {
+        saveNum = Num;
+        selectedClip.SetAnswered(true);
+        selectedClip.SetCorrect(true);
+        InitClip();
+    }
+
+    public void ChooseWrongAnswer(int Num)
+    {
+        saveNum = Num;
+        selectedClip.SetAnswered(true);
+        selectedClip.SetCorrect(false);
+        InitClip();
+    }
+
     private void GameOver()
     {
-        scoreTextArea.text = FundamentalCalc().ToString();
-        AchievementArea.text = "Placeholder";
-        
+        double score = FundamentalCalc();
+        string achievementText;
+        if(score >= 70)
+        {achievementText = SuperText;}
+        else if(score > 50 && score < 70)
+        {achievementText = StandardText;}
+        else{achievementText = FailedText;}
+        scoreTextArea.text = score.ToString("0.00") + "%";
+        AchievementArea.text = achievementText;
         DoozyUI.UIManager.ShowUiElement("EndGameMenu","SelfReliance");
     }
 
@@ -99,41 +141,46 @@ public class eroOS : MonoBehaviour
         int correctX = 0;
         int correctY = 0;
         int correctZ = 0;
-
+        double k;
         for (int i = 0; i < clips.Length; i++)
         {
-            if (clips[i].isImportant)
+            if (clips[i].Answered())
             {
-                x += 1;
-            }
-            else if (clips[i].isNotImportant)
-            {
-                y += 1;
-            }
-            else
-            {
-                z += 1;
-            }
-        }
-
-        double k = 100 / (1.25 * x + 0.75 * y + z);
-
-        for (int i = 0; i < clips.Length; i++)
-        {
-            if (clips[i].isImportant && clips[i].isCorrect)
-            {
-                correctX += 1;
-            }
-            else if (clips[i].isNotImportant && clips[i].isCorrect)
-            {
-                correctY += 1;
-            }
-            else if(clips[i].isCorrect)
-            {
-                correctZ += 1;
+                if (clips[i].isImportant)
+                {
+                    x += 1;
+                    if (clips[i].Correct())
+                    {
+                        correctX += 1;
+                    }
+                }
+                else if (clips[i].isNotImportant)
+                {
+                    y += 1;
+                    if (clips[i].Correct())
+                    {
+                        correctY += 1;
+                    }
+                }
+                else
+                {   
+                    z += 1;
+                    if (clips[i].Correct())
+                    {
+                        correctZ += 1;
+                    }
+                }
             }
         }
+        k = 100 / (1.25 * x + 0.75 * y + z);
+        if (x + y + z == 1)
+        {return (correctX + correctY + correctZ) * 100;}
+        else {return 1.25 * correctX * k + 0.75 * correctY * k + correctZ * k;}
+    }
 
-        return correctX * k + 1.25 * correctY * k + 0.75 * correctZ * k;
+    public void Reload()
+    {
+        Scene activeScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(activeScene.name);
     }
 }
