@@ -46,6 +46,7 @@ public class eroOS : MonoBehaviour
     public string FailedText;
     public Text scoreTextArea;
     public Text AchievementArea;
+    public GameObject AchievementManager;
     private Clip selectedClip;
     private int saveNum;
     private int currentPlayNum;
@@ -55,6 +56,7 @@ public class eroOS : MonoBehaviour
         mp.Events.AddListener(OnVideoEvent);
         saveNum = 0;
         InitClip();
+        
     }
 
     private void InitClip()
@@ -98,7 +100,6 @@ public class eroOS : MonoBehaviour
     {
         if (et == MediaPlayerEvent.EventType.FinishedPlaying)
         {
-            Debug.Log("Finished Playing");
             showChoice();
         }
     }
@@ -121,13 +122,24 @@ public class eroOS : MonoBehaviour
 
     private void GameOver()
     {
+        AchievementManager.SendMessage("setSceneName", SceneManager.GetActiveScene().name);
         double score = FundamentalCalc();
         string achievementText;
         if(score >= 70)
-        {achievementText = SuperText;}
+        {
+            achievementText = SuperText;
+            AchievementManager.SendMessage("addTotalNumSupers");
+        }
         else if(score > 50 && score < 70)
-        {achievementText = StandardText;}
-        else{achievementText = FailedText;}
+        {
+            achievementText = StandardText;
+            AchievementManager.SendMessage("addTotalNumMiddles");
+        }
+        else{
+            achievementText = FailedText;
+            AchievementManager.SendMessage("addTotalNumFails");
+        }
+        AchievementManager.SendMessage("addTotalGamesPlayed");
         scoreTextArea.text = score.ToString("0.00") + "%";
         AchievementArea.text = achievementText;
         DoozyUI.UIManager.ShowUiElement("EndGameMenu","SelfReliance");
