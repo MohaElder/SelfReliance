@@ -639,7 +639,7 @@ MonoBehaviour:
     overridePath: 0
     pathLocation: 2
     path: 
-    videoApi: 1
+    videoApi: 2
     useFastOesPath: 0
     showPosterFrame: 0
     enableAudio360: 0
