@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91bfc378277353046af743bed011dc1e, type: 3}
+  m_Name: RateGameSettingsData
+  m_EditorClassIdentifier: 
+  firstShowSettings:
+    useSessionsCount: 0
+    minSessiosnCount: 1
+    useCustomEvents: 0
+    minCustomEvents: 0
+    useInGameTime: 1
+    gamePlayTime: 5
+    useRealTime: 0
+    realTime: 0
+  postponeSettings:
+    useSessionsCount: 1
+    minSessiosnCount: 3
+    useCustomEvents: 0
+    minCustomEvents: 1
+    useInGameTime: 0
+    gamePlayTime: 5
+    useRealTime: 0
+    realTime: 0
+  iosAppID: 1447955355
+  googlePlayBundleID: com.Eroducate.SelfReliance
+  ratePopupCanvas: {fileID: 1689987329747834, guid: 0c500f9608704b047931b8bf2a44cc8b,
+    type: 3}
+  popupGameObject: {fileID: 1010002214022590, guid: 37ebed2cdd4cc8b4aa99ac649877d981,
+    type: 3}
+  ratePopupType: 0
+  mainText: "\u4F60\u89C9\u5F97\u8FD9\u4E2A\u6E38\u620F\u600E\u4E48\u6837\uFF1F"
+  yesButton: It`s Great
+  noButton: Needs Work
+  laterButton: Ask Later
+  sendButton: "\u53D1\u9001"
+  notNowButton: "\u7B49\u4F1A\u513F\u8BF4"
+  neverButton: "\u72E0\u5FC3\u62D2\u7EDD"
+  minStarsToSend: 3
+  usePlaymaker: 0
+  useBolt: 0
+  useGameFlow: 0
+  clearSave: 0

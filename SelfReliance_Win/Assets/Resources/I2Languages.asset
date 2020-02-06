@@ -1,0 +1,983 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: Game Over
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u6E38\u620F\u7ED3\u675F"
+      - Game Over
+      Flags: 0000
+      Languages_Touch: []
+    - Term: You are
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4F60"
+      - You are
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1aA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4E0D\u884C\uFF0C\u4E0D\u7BA1\u600E\u6837\u90FD\u8981\u56DE\u5BB6"
+      - No, I have to go home no matter what
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1aB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u597D\u5427\uFF0C\u90A3\u5C31\u4F4F\u4E00\u665A"
+      - Alright, I will stay for one night
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1bA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4E0B\u697C\u53BB\u4E70\u907F\u5B55\u5957"
+      - Go downstairs and buy condom
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1bB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4E0D\u4E70\u907F\u5B55\u5957"
+      - Just do it
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1cA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u53BB\u4E70\u9A8C\u5B55\u68D2\u68C0\u67E5"
+      - Buy Pregnancy stick to check pregnancy status
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1cB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5E94\u8BE5\u6CA1\u90A3\u4E48\u5012\u9709\uFF0C\u7B97\u4E86"
+      - It should be just fine
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1cC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5411\u5988\u5988\u5766\u767D"
+      - Confront with your parent
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1dA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u8DDF\u5BB6\u91CC\u4EBA\u8BB2"
+      - Tell your parents
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1dB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u8DDF\u7537\u53CB\u8BB2"
+      - Tell your boyfriend
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1dC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u81EA\u95ED "
+      - Shut yourself off
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1eA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u548C\u5BB6\u957F\u5766\u767D\u5E76\u9009\u62E9\u540E\u7EED\u5904\u7406"
+      - Tell your parents
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1eB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u8DDF\u5979\u79C1\u5954"
+      - Run away with her
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1eC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u6E9C\u4E4B\u5927\u5409"
+      - Run away by yourself
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1eD
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u548C\u5973\u53CB\u4E00\u8D77\u53BB\u9ED1\u8BCA\u6240\u5815\u80CE"
+      - Perform abortion in an unlicensed hospital
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1fA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5815\u80CE"
+      - Perform abortion
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip1fB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u629A\u517B"
+      - Raise the child(s)
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip2aA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4FDD\u9669\u8D77\u89C1\uFF0C\u8FD8\u662F\u4E0D\u8981\u5728\u4E0D\u719F\u7684\u4F34\u4FA3\u7684\u5BB6\u4E2D\u8FC7\u591C\uFF0C\u4E0D\u7BA1\u591A\u665A\u90FD\u8981\u56DE\u5BB6\u3002"
+      - For safety, better head home
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip2aB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u597D\u554A\uFF0C\u90A3\u5C31\u4F4F\u4E00\u665A\u3002"
+      - Alright, I will stay for one night
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip2bA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u6234\u5957"
+      - Wear condom
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip2bB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4E0D\u6234\u5957\uFF0C\u751C\u8A00\u871C\u8BED\u8BF4\u670D"
+      - Got convinced and just did it
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip2bC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4E0D\u6234\u5957\uFF0C\u5F3A\u884C\u96F7\u666E"
+      - Got abused and just did it
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip2cA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u8FD9\u5E94\u8BE5\u53EA\u662F\u5B63\u8282\u6027\u6D41\u611F\uFF0C\u5403\u70B9\u836F\u5C31\u884C"
+      - It's probably just a seasonal fever, some medicine will do.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip2cB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u592A\u4E0D\u8212\u670D\u4E86\uFF0C\u8FD8\u662F\u53BB\u533B\u9662\u68C0\u67E5\u4E00\u4E0B\u5427\u3002"
+      - Not feeling very well, I should go to the hospital.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3aA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u7537\u751F\u8DEF\u7EBF"
+      - Go Boy
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3aB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5973\u751F\u8DEF\u7EBF"
+      - Go Girl
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3mAA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u9A82\u4EBA"
+      - Straight Acuse
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3mAB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5112\u96C5\u968F\u548C\u5730\u9053\u6B49"
+      - Sincerely say sorry
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3mAC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4E0D\u771F\u8BDA\u5730\u9053\u6B49"
+      - Not sincerely say sorry
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3mBA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5927\u58F0\u558A\u51FA\u6765\u5632\u7B11\u4ED6"
+      - Laugh at her
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3mBB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u62A5\u8B66"
+      - Call the police
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3mBC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u6C89\u9ED8\uFF0C\u7136\u540E\u4E0B\u8BFE\u53BB\u5618\u5BD2\u95EE\u6696"
+      - Comfort the girl after class
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3mCA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u52A0\u5165"
+      - Join the conversation
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3mCB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u51B7\u6F20\u542C\u7740\uFF0C\u4E0D\u52A0\u5165"
+      - Stand away
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3mCC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5236\u6B62\u4ED6\u4EEC"
+      - Stop them
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3mDA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u95EE\u5979\u8FD9\u662F\u4EC0\u4E48"
+      - 'Straightly ask her what is it '
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3mDB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u548C\u4ED6\u8BF4\u4F60\u4E1C\u897F\u6389\u4E86\uFF0C\u7136\u540E\u793C\u8C8C\u5730\u79BB\u5F00"
+      - Tell her politely that her belonging has dropped and leave
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3mDC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u76F4\u63A5\u6253\u5F00\u6765\uFF0C\u5F00\u59CB\u5632\u7B11"
+      - Directly open it and start to laugh at the girl
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3mEA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u56DE\u5B66\u6821\u548C\u5973\u751F\u6C9F\u901A"
+      - Talk with the girl
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3mEB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u7ED9\u5973\u751F\u9001\u76F4\u7537\u793C\u7269\u4F5C\u4E3A\u9053\u6B49"
+      - Give the girl a bad gift
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3mEC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u7ED9\u5973\u751F\u9001\u7528\u5FC3\u793C\u7269\u4F5C\u4E3A\u9053\u6B49"
+      - Give the girl a nice gift
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3wAA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u9A82\u4EBA"
+      - Straight Acuse
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3wAB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5148\u89C2\u5BDF\u4E00\u4E0B"
+      - Hold still
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3wBA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u9A6C\u4E0A\u548C\u8001\u5E08\u8BF4\u8981\u53BB\u5395\u6240"
+      - Tell the teacher that you have to go to the bathroom
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3wBB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u53EF\u80FD\u662F\u65E9\u996D\u6CA1\u5403\u9971\u5427\uFF0C\u4E0D\u7BA1\u5B83"
+      - Maybe It Is because of the breakfast, don't need to be worried about it.
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3wCA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u544A\u8BC9\u88AB\u8BC4\u8BBA\u7684\u90A3\u4E2A\u5973\u751F\u5E76\u5B89\u6170"
+      - Comfort the girl
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3wCB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u51B7\u6F20\u542C\u7740\uFF0C\u4E0D\u52A0\u5165"
+      - Stand away
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3wCC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u544A\u8BC9\u8001\u5E08"
+      - Tell the teacher
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3wDA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u8BB2\u6E05\u695A"
+      - Explain to the boy
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3wDB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5BB3\u7F9E\u5730\u8D70\u5F00"
+      - Shyly walk away
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3wDC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u9A82\u56DE\u53BB"
+      - Yell at the boy
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3wEA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u66B4\u529B\u89E3\u51B3"
+      - Violently solve the problem
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip3wEB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u793C\u8C8C\u6C9F\u901A"
+      - Talk with the boy
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4aA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u76F4\u63A5\u51FA\u95E8\u5F80\u5916\u8DD1"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4aB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4E70\u597D\u65E9\u9910 \u6DE1\u5B9A\u6DF7\u5165\u8DEF\u4EBA\u5F53\u4E2D"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4aC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u8BA9\u4F60\u7684\u670B\u53CB\u8FC7\u6765\u966A\u4F60\u56DE\u5BB6"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4bA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5927\u58F0\u5C16\u53EB"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4bB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u653B\u51FB\u4ED6"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4bC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u8BF4\u9A9A\u8BDD"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4bD
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4E0D\u53BB\u7406\u4F1A"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4bE
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u62A5\u8B66"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4cA
+      TermType: 0
+      Description: 
+      Languages:
+      - " \u5C31\u8FD9\u4E48\u7B97\u4E86\u5427\uFF0C\u53EF\u80FD\u4E5F\u6CA1\u4E8B"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4cB
+      TermType: 0
+      Description: 
+      Languages:
+      - " \u5148\u6342\u7D27\u88D9\u5B50\uFF0C\u518D\u53BB\u67E5\u770B\u76D1\u63A7"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4dA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5982\u5B9E\u544A\u8BC9"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4dB
+      TermType: 0
+      Description: 
+      Languages:
+      - " \u9690\u7792\u91CD\u8981\u4FE1\u606F\uFF0C\u542B\u7CCA\u8FC7\u53BB"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4dC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5E72\u8106\u4E0D\u7406"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4eA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u8FD8\u633A\u5E05\u7684\uFF0C\u90A3\u5C31\u52A0\u5427"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4eB
+      TermType: 0
+      Description: 
+      Languages:
+      - " \u4E0D\u52A0"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4fA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u56DE\u590D\u5BF9\u9762\u5947\u602A\u7684\u8BF7\u6C42"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4fB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4E0D\u4E88\u7406\u776C"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4gA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u6253\u5F00\u6447\u4E00\u6447\u6DFB\u52A0\u4E00\u4E2A\u597D\u53CB"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4gB
+      TermType: 0
+      Description: 
+      Languages:
+      - " \u70B9\u5F00\u670B\u53CB\u5708"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4gC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u9000\u51FA\u5FAE\u4FE1"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4hA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u6253\u5F00\u6447\u4E00\u6447\u6DFB\u52A0\u4E00\u4E2A\u597D\u53CB"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4hB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u9000\u51FA\u5FAE\u4FE1"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4iA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u901A\u8FC7\u597D\u53CB\u9080\u8BF7\u548C\u4ED6\u804A\u804A\u5929"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4iB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u901A\u8FC7\u597D\u53CB\u9080\u8BF7\u9A82\u4ED6\u7136\u540E\u518D\u5220\u4E86\u4ED6"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4jA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5728\u7535\u68AF\u91CC\u5927\u558A\u6709\u8272\u72FC\u5728\u6478\u6211\u5C41\u80A1"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4jB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u9ED8\u9ED8\u5FCD\u53D7\uFF0C\u7B49\u7535\u68AF\u5F00\u95E8\u9A6C\u4E0A\u51FA\u53BB"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4jC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5047\u88C5\u6253\u7535\u8BDD\u62A5\u8B66"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip4jD
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u8DDF\u732A\u624B\u7537\u8BF4\u4E0D\u8981\u518D\u5BF9\u6211\u8FDB\u884C\u6027\u9A9A\u6270\uFF0C\u4E0D\u7136\u5C31\u91C7\u53D6\u6CD5\u5F8B\u63AA\u65BD"
+      - '"'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: fonts
+      TermType: 1
+      Description: 
+      Languages:
+      - NotoSansCJK-Regular
+      - Futura Heavy font
+      Flags: 0000
+      Languages_Touch: []
+    - Term: level1
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4FDD\u62A4\u597D\u4F60\u81EA\u5DF1"
+      - Protect Yourself
+      Flags: 0000
+      Languages_Touch: []
+    - Term: level2
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u8FDC\u79BBSTD\uFF0C\u4ED6\u597D\u6211\u4E5F\u597D"
+      - Sexually Transmitted Disease
+      Flags: 0000
+      Languages_Touch: []
+    - Term: level3
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u9752\u6625\u671F\u7684\u8E81\u52A8"
+      - Respect between genders
+      Flags: 0000
+      Languages_Touch: []
+    - Term: level4
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4E0D\u6B62\u9A9A\u6270\u90A3\u4E48\u7B80\u5355"
+      - Sexual Harrasment
+      Flags: 0000
+      Languages_Touch: []
+    - Term: mainMenu
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4E3B\u83DC\u5355"
+      - Main Menu
+      Flags: 0000
+      Languages_Touch: []
+    - Term: pass
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u70B9\u51FB\u5C4F\u5E55\u6216\u6309\u4E0B\u7A7A\u683C\u952E\u8DF3\u8FC7"
+      - Touch the screen or press space bar to skip
+      Flags: 0000
+      Languages_Touch: []
+    - Term: resume
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u7EE7\u7EED"
+      - Resume
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5aA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4E0D\u7406\u4ED6"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5aB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u7406\u4ED6"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5bA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4E0D\u52A0\u5FAE\u4FE1"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5bB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u52A0\u5FAE\u4FE1"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5cA
+      TermType: 0
+      Description: 
+      Languages:
+      - " \u4E0D\u7BA1\u4ED6\uFF0C\u89C9\u5F97\u4ED6\u5F88\u83AB\u540D\u5176\u5999"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5cB
+      TermType: 0
+      Description: 
+      Languages:
+      - " \u95EE\u65AF\u51EF\u6709\u6CA1\u6709\u4E8B\u60C5  "
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5dA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u575A\u6301\u81EA\u5DF1\u7684\u539F\u5219\uFF0C\u4E0D\u53BB\u9152\u5E97\u3002"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5dB
+      TermType: 0
+      Description: 
+      Languages:
+      - " \u4E3A\u4E86\u633D\u56DE \u65AF\u51EF\uFF0C\u9009\u62E9\u7B2C\u4E8C\u5929\u53BB\u8D74\u7EA6\u3002"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5eA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5206\u624B"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5eB
+      TermType: 0
+      Description: 
+      Languages:
+      - " \u7EE7\u7EED\u633D\u7559"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5fA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u76F4\u63A5\u501F\u94B1"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5fB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u8F6C\u79FB\u8BDD\u9898\uFF0C\u6700\u8FD1\u81EA\u5DF1\u624B\u5934\u4E5F\u4E0D\u592A\u5BBD\u88D5\u5462"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5gA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u51FA\u95E8\u6253\u80CE\uFF0C\u8BC1\u660E\u5BF9\u4ED6\u7684\u7231"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5gB
+      TermType: 0
+      Description: 
+      Languages:
+      - " \u62A5\u8B66"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5hA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u593A\u8D70\u624B\u673A"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5hB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4E0D\u593A\u8D70"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5iA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u76F4\u63A5\u4E86\u5F53\u544A\u8BC9\u4ED6\u8FD9\u662F PUA"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5iB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u628A\u4ED6\u7684\u624B\u673A\u76F4\u63A5\u6454\u70C2\u8E29\u788E"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5iC
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4ECE\u804A\u5929\u8BB0\u5F55\u4E2D\u627E\u51FA\u7834\u7EFD\uFF0C\u8BA9\u4E1C\u4E1C\u5FC3\u670D\u53E3\u670D"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5jA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u65E2\u7136\u4ED6\u8BF4\u6CA1\u4E8B\uFF0C\u90A3\u5C31\u7B97\u55BD"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5jB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4E00\u5B9A\u662F\u6709\u4EC0\u4E48\u4E8B\u60C5\u5728\u56F0\u6270\u4ED6\uFF0C\u8D76\u7D27\u8FFD\u95EE"
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5CcA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u7B54\u5E94"
+      - '""'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5CcB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u62D2\u7EDD"
+      - '""'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: level5
+      TermType: 0
+      Description: 
+      Languages:
+      - "PUA\u81EA\u6551\u6307\u5357"
+      - Pick Up Artists
+      Flags: 0000
+      Languages_Touch: []
+    - Term: accuracy
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u6B63\u786E\u7387:"
+      - 'Accuracy:'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5kA
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u5148\u81EA\u5DF1\u627E\u51FA\u7834\u7EFD\uFF0C\u518D\u5E2E\u52A9\u4ED6"
+      - '""'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clip5kB
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u7B97\u4E86\uFF0C\u522B\u4EBA\u7684\u4E8B\u60C5\u4E5F\u4E0D\u597D\u7BA1"
+      - '""'
+      Flags: 0000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: Chinese
+      Code: zh
+      Flags: 0
+    - Name: English
+      Code: en
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 1
+    Google_WebServiceURL: 
+    Google_SpreadsheetKey: 
+    Google_SpreadsheetName: 
+    Google_LastUpdatedVersion: 
+    Google_Password: change_this
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 5
+    Assets:
+    - {fileID: 12800000, guid: 2a1a0ff6f18ff18499def73957ec47c9, type: 3}
+    - {fileID: 12800000, guid: 11bf0770a57c97c4bba4157fb4547b9e, type: 3}
+    Spreadsheet_LocalFileName: C:/Users/Administrator/Desktop/epi4ChoiceText.csv
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1

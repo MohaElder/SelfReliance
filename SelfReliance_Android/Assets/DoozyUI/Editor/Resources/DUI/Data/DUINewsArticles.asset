@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab333cd16d0574d45aa8ca899f978f8c, type: 3}
+  m_Name: DUINewsArticles
+  m_EditorClassIdentifier: 
+  articles:
+  - title: Special Announcement
+    content: "We are planning a cool contest and, should you want to participate,
+      keep a close eye on our YouTube Channel (http://www.youtube.com/c/DoozyEntertainment)
+      and follow our Twitter feed (https://twitter.com/doozyplay) because we\u2019ll
+      announce it there.\r\n\nWe are also creating a lot of new video tutorials that
+      you\u2019ll diffidently want to check out if you want to improve your UI design
+      skills.\r\n\nStay tuned for more\u2026 \r;)"
+  - title: DoozyUI 2.9.4 - Release Notes
+    content: "We\u2019ve been tinkering under the hood to fix some bugs that were
+      brought to our attention by you guys and we also added some small new features.
+      Read on to learn about what changed and what are the new available features.\r\n\r\nNEW
+      FEATURES\r\n\u2022 UIElement has a new method 'IsUIElementVisible' that returns
+      true if at least one UIElement with the given elementName and elementCategory
+      is currently visible. An UIElement is considered visible if its isVisible value
+      is true.\r\n\u2022 UIManager and UINavigation have a new public static method
+      'ShowAndHide(List<NavigationPointer> show, List<NavigationPointer> hide, bool
+      addToNavigationHistory, bool instantAction = false)' that shows and/or hidea
+      all the UIElements that have been added to the show and/or hide NavigationPointer
+      Lists while also adding this change to the NaviagtionHistory if addToNavigationHistory
+      is set to true.\r\n\u2022 UIManager and UINavigation have a new public static
+      method 'ShowUiElementAndHideAllTheOthers(string elementName, string elementCategory,
+      bool addToNavigationHistory, bool instantAction = false)' that shows an UIElement
+      and hides all the others (the UIElements that are visible) whith the addToNavigationHistory
+      option.\r\n\u2022 UIManager and UINavigation have a new public static method
+      'ShowUiElement(string elementName, string elementCategory, bool addToNavigationHistory,
+      bool instantAction = false)' that shows all the UIElements that have the given
+      name and category with addToNavigationHistory option.\r\n\u2022 UIManager and
+      UINavigation have a new public static method 'HideUiElement(string elementName,
+      string elementCategory, bool addToNavigationHistory, bool instantAction = false)'
+      that hides all the UIElements that have the given name and category with addToNavigationHistory
+      option.\r\n\r\nCHANGES\r\n\u2022 The following methods in the UIElement components
+      are now public - InitLoopAnimations, PlayLoopAnimations and StopLoopAnimations.\r\n\u2022
+      Moved most static registry databases and methods from the UIManager to each
+      corespondent component. The UIManager functionality is still the same, it just
+      points to the new databases/methods for each component. We did this as DoozyUI
+      3.0 has a clear separation of components and that makes the code more clean
+      and easier to work with (also it is more intuitive this way).\r\n\r\nFIXES\r\n\u2022
+      Updated the functionality of editing multiple components for the Navigation
+      settings. This affects the UIButton, the UIToggle and the GestureDectector.
+      Now, you can select several UIButtons and change all their Navigation settings
+      at once.\r\n\u2022 UIButton OnClick had a small delay when executing multiple
+      clicks/taps in a very short interval. We fixed that and now all the clicks
+      happen instantly as intended. Thank you all for your help in tracking down
+      this issue.\r\n\u2022 A general editor issue was discovered with all the toggles,
+      not behaving as expected when working with multiple components selected. This
+      issue has been resolved and not it works as intended with serializedProperties
+      controlling all the settings.\r\n\u2022 UIButton editor minor layout issues
+      have been resolved.\r\n\u2022 UIToggle not animating when toggled by a ToggleGroup.\r\n\u2022
+      UIElement show method had some issues due to class variables, now we use method
+      variables that fixed the issues that appared when the orientation changed.
+      \r"
+  - title: DoozyUI 3 - News
+    content: "NEWS\r\nWe\u2019ve acquired doozyui.com and we are in the process of
+      moving all the info about DoozyUI there. A real-time chat option will be available,
+      and all the documentation and guides will be added there with supporting how-to
+      images and video examples.\r\n\r\nDEVELPOMENT\r\nDoozyUI 3 has entered alpha
+      testing and we\u2019re adding a lot of new features and fixing any bugs we
+      find before we enter the beta test phase. Right now, the runtime infrastructure
+      is almost complete and operational. After the first functionality tests, we\u2019ll
+      be moving into adding the editor core (that has been developed separately).\r\nWe\u2019ll
+      be looking for some of you (limited availability) to help us out with the beta
+      tests, so be on the lookout for our announcement about that, if you are interested.\r\n\r\nFAQ\r\n\u2022
+      Will DoozyUI 3 be compatible with previous versions of DoozyUI?\r\n--- As of
+      now, the answer is no. The new version has been completely rewritten from the
+      ground up. We have been maintaining various old code from version 1 and we
+      had to clean up the entire code base to untangle the old patterns and designs.\r\n\r\n\u2022
+      What are some of the significant changes implemented in DoozyUI 3?\r\n--- There
+      are several significant changes that will lower the development times of your
+      UI design. A Node Graph will be responsible for UI navigation purposes; thus,
+      you\u2019ll have a clear and easy way of creating, managing and visualizing
+      your UI flow. UI Templates will be a staple addition to the system, as you\u2019ll
+      be able to design your UI into a template that can be used again and again
+      in other projects. There are other new features that we\u2019ll showcase in
+      all the relevant places (videos, manual, website).\r\n\r\n\u2022 Will you be
+      developing an upgrade tool from previous versions of DoozyUI to DoozyUI 3?\r\n---
+      Depending on the number of upgrade requests, we\u2019ll investigate doing just
+      that. This will happen only after we release DoozyUI 3.\r"

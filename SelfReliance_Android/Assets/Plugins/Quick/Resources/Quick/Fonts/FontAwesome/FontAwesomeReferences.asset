@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65947e6b438163241a6b8c4b619b59b2, type: 3}
+  m_Name: FontAwesomeReferences
+  m_EditorClassIdentifier: 
+  FontAwesomeBrands: {fileID: 12800000, guid: c022bbbf7c12dec4c88fa7b0e625d24a, type: 3}
+  FontAwesomeSolid: {fileID: 12800000, guid: e85ca265df4cb3e4fb2fc812746fe38d, type: 3}
+  FontAwesomeRegular: {fileID: 12800000, guid: f55b8600f60839641b7300a3f34286e6, type: 3}
+  FontAwesomeSolidPro: {fileID: 12800000, guid: 6ed867e4e4543a541b50b507b76d3d7c,
+    type: 3}
+  FontAwesomeRegularPro: {fileID: 12800000, guid: ae0624f3e91aff9438de59e0b177c83a,
+    type: 3}
+  FontAwesomeLightPro: {fileID: 12800000, guid: 6e31c8382c6a68748ab0f240ae795bf9,
+    type: 3}

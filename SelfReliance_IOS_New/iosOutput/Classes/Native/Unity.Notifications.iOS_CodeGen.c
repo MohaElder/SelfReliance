@@ -1,0 +1,432 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+extern const RuntimeMethod* iOSNotificationsWrapper_AuthorizationRequestReceived_m0B9514890D5292A398583EB5FB52C84E89EF2C44_RuntimeMethod_var;
+extern const RuntimeMethod* iOSNotificationsWrapper_NotificationReceived_m15A8B9969D3B760901868EED3ECD57F6251D3F8E_RuntimeMethod_var;
+extern const RuntimeMethod* iOSNotificationsWrapper_RemoteNotificationReceived_m7892270BF1067E6B09F2AD79891BD9C0E7B5E2EC_RuntimeMethod_var;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.Void Unity.Notifications.iOS.iOSNotification::set_Identifier(System.String)
+extern void iOSNotification_set_Identifier_m0FE3E82FE6D9BCFCD869D7B2828046CC8E0F1D2C ();
+// 0x00000002 System.Void Unity.Notifications.iOS.iOSNotification::set_CategoryIdentifier(System.String)
+extern void iOSNotification_set_CategoryIdentifier_m5C3578B780BF192292015164EBA3D184A3DC62E7 ();
+// 0x00000003 System.Void Unity.Notifications.iOS.iOSNotification::set_ThreadIdentifier(System.String)
+extern void iOSNotification_set_ThreadIdentifier_m8490EBCA321051DAB22B314A1EFD8F0B82E086A9 ();
+// 0x00000004 System.Void Unity.Notifications.iOS.iOSNotification::set_Title(System.String)
+extern void iOSNotification_set_Title_mCE7950DDE7F07E7A311C8B0285D7F0361DA545E7 ();
+// 0x00000005 System.Void Unity.Notifications.iOS.iOSNotification::set_Subtitle(System.String)
+extern void iOSNotification_set_Subtitle_m1A7B33D06A7E6F7A36CD3A02B4A317437D458FE3 ();
+// 0x00000006 System.Void Unity.Notifications.iOS.iOSNotification::set_Body(System.String)
+extern void iOSNotification_set_Body_m9D5CAFA5C34626CF4A0E82CA31B528D7F865FE98 ();
+// 0x00000007 System.Void Unity.Notifications.iOS.iOSNotification::set_ShowInForeground(System.Boolean)
+extern void iOSNotification_set_ShowInForeground_m1785C04DD53C52E9CCB9296CDFDC310B721767F1 ();
+// 0x00000008 System.Void Unity.Notifications.iOS.iOSNotification::set_ForegroundPresentationOption(Unity.Notifications.iOS.PresentationOption)
+extern void iOSNotification_set_ForegroundPresentationOption_m52D2F50E111F887CB1AFEB447FB06FF8C062C930 ();
+// 0x00000009 System.String Unity.Notifications.iOS.iOSNotification::get_Data()
+extern void iOSNotification_get_Data_m8B57E0DCD9ADF972A2A3BA3A06A1B61DAFE87F17 ();
+// 0x0000000A System.Void Unity.Notifications.iOS.iOSNotification::set_Data(System.String)
+extern void iOSNotification_set_Data_mF99458275C22949D52305B3B76615FB7CFDE0407 ();
+// 0x0000000B System.Void Unity.Notifications.iOS.iOSNotification::set_Trigger(Unity.Notifications.iOS.iOSNotificationTrigger)
+extern void iOSNotification_set_Trigger_m697D4E1EA33C328BAB37B1E1199B4D1D92D29ECE ();
+// 0x0000000C System.Void Unity.Notifications.iOS.iOSNotification::.ctor()
+extern void iOSNotification__ctor_m6D7A48CC3DDF0E0F8637B72AAB3865C38AAF1021 ();
+// 0x0000000D System.Void Unity.Notifications.iOS.iOSNotification::.ctor(System.String)
+extern void iOSNotification__ctor_m6A4F6FCE4D0EB26D5D101ABF056D835D26E85674 ();
+// 0x0000000E System.Int32 Unity.Notifications.iOS.iOSNotificationLocationTrigger::get_Type()
+extern void iOSNotificationLocationTrigger_get_Type_mAD6EE7678084A9AF883C67970B948914622028EB ();
+// 0x0000000F UnityEngine.Vector2 Unity.Notifications.iOS.iOSNotificationLocationTrigger::get_Center()
+extern void iOSNotificationLocationTrigger_get_Center_m4D05E6A08ACB04CB28161C053FD8F44264231912_AdjustorThunk ();
+// 0x00000010 System.Single Unity.Notifications.iOS.iOSNotificationLocationTrigger::get_Radius()
+extern void iOSNotificationLocationTrigger_get_Radius_m9B7631C5EEA1FC5C5D6AF9EA192C116BA17B7873_AdjustorThunk ();
+// 0x00000011 System.Boolean Unity.Notifications.iOS.iOSNotificationLocationTrigger::get_NotifyOnEntry()
+extern void iOSNotificationLocationTrigger_get_NotifyOnEntry_m92862B7E2AAA2731DB9F1BAE5656A68046B9AD17_AdjustorThunk ();
+// 0x00000012 System.Boolean Unity.Notifications.iOS.iOSNotificationLocationTrigger::get_NotifyOnExit()
+extern void iOSNotificationLocationTrigger_get_NotifyOnExit_m0E16244BD95BD77F19DDEEF3115278E9319C623B_AdjustorThunk ();
+// 0x00000013 System.Int32 Unity.Notifications.iOS.iOSNotificationTimeIntervalTrigger::get_Type()
+extern void iOSNotificationTimeIntervalTrigger_get_Type_m9C339D4E98CEFE0B44DA8A24B05D1690476B1116 ();
+// 0x00000014 System.Void Unity.Notifications.iOS.iOSNotificationTimeIntervalTrigger::set_TimeInterval(System.TimeSpan)
+extern void iOSNotificationTimeIntervalTrigger_set_TimeInterval_mA8D518C2F510F3917081552D8361DF975BC15AE3_AdjustorThunk ();
+// 0x00000015 System.Boolean Unity.Notifications.iOS.iOSNotificationTimeIntervalTrigger::get_Repeats()
+extern void iOSNotificationTimeIntervalTrigger_get_Repeats_mDBE8EB76AFB1BF0BFFD30EFA1FA67956061F2D4B_AdjustorThunk ();
+// 0x00000016 System.Void Unity.Notifications.iOS.iOSNotificationTimeIntervalTrigger::set_Repeats(System.Boolean)
+extern void iOSNotificationTimeIntervalTrigger_set_Repeats_m307A5902AD61CD35BB11B17024931CB2CA53849E_AdjustorThunk ();
+// 0x00000017 System.Int32 Unity.Notifications.iOS.iOSNotificationCalendarTrigger::get_Type()
+extern void iOSNotificationCalendarTrigger_get_Type_m826168462BB6FFC0D945CBFE618A67126F85675B ();
+// 0x00000018 System.Nullable`1<System.Int32> Unity.Notifications.iOS.iOSNotificationCalendarTrigger::get_Year()
+extern void iOSNotificationCalendarTrigger_get_Year_mBBCED3DDF15A9E843C813CB365E24CE55687E75D_AdjustorThunk ();
+// 0x00000019 System.Nullable`1<System.Int32> Unity.Notifications.iOS.iOSNotificationCalendarTrigger::get_Month()
+extern void iOSNotificationCalendarTrigger_get_Month_m0DF590657656E149DC90E7D63CA9E575105103D1_AdjustorThunk ();
+// 0x0000001A System.Nullable`1<System.Int32> Unity.Notifications.iOS.iOSNotificationCalendarTrigger::get_Day()
+extern void iOSNotificationCalendarTrigger_get_Day_mF30D77FF88E0730D47C3DDC6DF4CADC350F589AD_AdjustorThunk ();
+// 0x0000001B System.Nullable`1<System.Int32> Unity.Notifications.iOS.iOSNotificationCalendarTrigger::get_Hour()
+extern void iOSNotificationCalendarTrigger_get_Hour_m384BE74AD4DC2FEDD2310DCD77D7B353B9AF3D4C_AdjustorThunk ();
+// 0x0000001C System.Nullable`1<System.Int32> Unity.Notifications.iOS.iOSNotificationCalendarTrigger::get_Minute()
+extern void iOSNotificationCalendarTrigger_get_Minute_m7AC063853B8B4DF3ECF996B3188901304C935A2A_AdjustorThunk ();
+// 0x0000001D System.Nullable`1<System.Int32> Unity.Notifications.iOS.iOSNotificationCalendarTrigger::get_Second()
+extern void iOSNotificationCalendarTrigger_get_Second_mA4751D11679102E3F60CF1973003D0A916A2BBFF_AdjustorThunk ();
+// 0x0000001E System.Boolean Unity.Notifications.iOS.iOSNotificationCalendarTrigger::get_Repeats()
+extern void iOSNotificationCalendarTrigger_get_Repeats_mA056204B0FD6839466C691EBB03196253D850439_AdjustorThunk ();
+// 0x0000001F System.Boolean Unity.Notifications.iOS.iOSNotificationCenter::Initialize()
+extern void iOSNotificationCenter_Initialize_m8E140449CE45E01DEF3D3B64704FC15A6F802F30 ();
+// 0x00000020 Unity.Notifications.iOS.iOSNotification Unity.Notifications.iOS.iOSNotificationCenter::GetLastRespondedNotification()
+extern void iOSNotificationCenter_GetLastRespondedNotification_m0FA87E439B933EFA568B4BFED97CEE8B1C3094CC ();
+// 0x00000021 System.Void Unity.Notifications.iOS.iOSNotificationCenter::RemoveAllScheduledNotifications()
+extern void iOSNotificationCenter_RemoveAllScheduledNotifications_m4E7E85B5BBE66984B3B8000691F49A7CB5728D3D ();
+// 0x00000022 System.Void Unity.Notifications.iOS.iOSNotificationCenter::RemoveAllDeliveredNotifications()
+extern void iOSNotificationCenter_RemoveAllDeliveredNotifications_mCCEE21CC9AEE369D499F050198D260083DB25328 ();
+// 0x00000023 System.Void Unity.Notifications.iOS.iOSNotificationCenter::ScheduleNotification(Unity.Notifications.iOS.iOSNotification)
+extern void iOSNotificationCenter_ScheduleNotification_mF05108B3E65917BC05B25615F280D0764B08A3CA ();
+// 0x00000024 System.Void Unity.Notifications.iOS.iOSNotificationCenter::onReceivedRemoteNotification(Unity.Notifications.iOS.iOSNotificationData)
+extern void iOSNotificationCenter_onReceivedRemoteNotification_m2A9BB7A51DC29BDA203595DDEE5762B115893EDA ();
+// 0x00000025 System.Void Unity.Notifications.iOS.iOSNotificationCenter::onSentNotification(Unity.Notifications.iOS.iOSNotificationData)
+extern void iOSNotificationCenter_onSentNotification_m9F136BE7C08D6938CDC4BC02BB0B6873D7510B31 ();
+// 0x00000026 System.Void Unity.Notifications.iOS.iOSNotificationCenter::onFinishedAuthorizationRequest(Unity.Notifications.iOS.iOSAuthorizationRequestData)
+extern void iOSNotificationCenter_onFinishedAuthorizationRequest_m48B8078CB367A66D0A9E13B1734F7310CC9B7A79 ();
+// 0x00000027 System.Void Unity.Notifications.iOS.iOSNotificationCenter::.cctor()
+extern void iOSNotificationCenter__cctor_m1BF4E25CF195A7AD6155931A6D13878707CBFBF1 ();
+// 0x00000028 System.Void Unity.Notifications.iOS.iOSNotificationCenter_NotificationReceivedCallback::.ctor(System.Object,System.IntPtr)
+extern void NotificationReceivedCallback__ctor_m77868881D517501310180FCF0E528357596B4CC9 ();
+// 0x00000029 System.Void Unity.Notifications.iOS.iOSNotificationCenter_NotificationReceivedCallback::Invoke(Unity.Notifications.iOS.iOSNotification)
+extern void NotificationReceivedCallback_Invoke_mE95F6C6AE41D6E8C65B78EAE908899BA05D1A1A4 ();
+// 0x0000002A System.IAsyncResult Unity.Notifications.iOS.iOSNotificationCenter_NotificationReceivedCallback::BeginInvoke(Unity.Notifications.iOS.iOSNotification,System.AsyncCallback,System.Object)
+extern void NotificationReceivedCallback_BeginInvoke_m29E617166ACC183B35F1A812131F2538749ED5D5 ();
+// 0x0000002B System.Void Unity.Notifications.iOS.iOSNotificationCenter_NotificationReceivedCallback::EndInvoke(System.IAsyncResult)
+extern void NotificationReceivedCallback_EndInvoke_m7CB038002697C11D0501E7AF2622DCA3A88B02E7 ();
+// 0x0000002C System.Void Unity.Notifications.iOS.iOSNotificationCenter_AuthorizationRequestCompletedCallback::.ctor(System.Object,System.IntPtr)
+extern void AuthorizationRequestCompletedCallback__ctor_m5062FC79DA5A3F6A3D78BB8F075D9807327A667F ();
+// 0x0000002D System.Void Unity.Notifications.iOS.iOSNotificationCenter_AuthorizationRequestCompletedCallback::Invoke(Unity.Notifications.iOS.iOSAuthorizationRequestData)
+extern void AuthorizationRequestCompletedCallback_Invoke_m3BBF26929CDEF40853EFFB9F86F8190082C3F5FD ();
+// 0x0000002E System.IAsyncResult Unity.Notifications.iOS.iOSNotificationCenter_AuthorizationRequestCompletedCallback::BeginInvoke(Unity.Notifications.iOS.iOSAuthorizationRequestData,System.AsyncCallback,System.Object)
+extern void AuthorizationRequestCompletedCallback_BeginInvoke_mC6AF9367C08237BF86E371A3268505CB5C75AD00 ();
+// 0x0000002F System.Void Unity.Notifications.iOS.iOSNotificationCenter_AuthorizationRequestCompletedCallback::EndInvoke(System.IAsyncResult)
+extern void AuthorizationRequestCompletedCallback_EndInvoke_mCD857E6CAD35EC1238E6E94A9054B435BED45EFC ();
+// 0x00000030 System.Void Unity.Notifications.iOS.iOSNotificationCenter_<>c::.cctor()
+extern void U3CU3Ec__cctor_mD0D1AFA0A6458CCA98B59749D14AEF846E60B19E ();
+// 0x00000031 System.Void Unity.Notifications.iOS.iOSNotificationCenter_<>c::.ctor()
+extern void U3CU3Ec__ctor_mF28B20E1637C3E25D81593EAE5E400DE93D00215 ();
+// 0x00000032 System.Void Unity.Notifications.iOS.iOSNotificationCenter_<>c::<.cctor>b__37_0(Unity.Notifications.iOS.iOSNotification)
+extern void U3CU3Ec_U3C_cctorU3Eb__37_0_m7D2F7EC015976494580E6AE364931F86F043CFE9 ();
+// 0x00000033 System.Void Unity.Notifications.iOS.iOSNotificationCenter_<>c::<.cctor>b__37_1(Unity.Notifications.iOS.iOSNotification)
+extern void U3CU3Ec_U3C_cctorU3Eb__37_1_mFDB7D5BC81ED0A4AFB1E88E44709727F61998F21 ();
+// 0x00000034 System.Void Unity.Notifications.iOS.iOSNotificationCenter_<>c::<.cctor>b__37_2(Unity.Notifications.iOS.iOSAuthorizationRequestData)
+extern void U3CU3Ec_U3C_cctorU3Eb__37_2_mC2696DD88D007A9F3F3D63D39CD7D9358242392C ();
+// 0x00000035 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::_RequestAuthorization(System.Int32,System.Boolean)
+extern void iOSNotificationsWrapper__RequestAuthorization_m40962C59E37C30F1A4FE32BAC587F491D6FE8BEA ();
+// 0x00000036 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::_ScheduleLocalNotification(System.IntPtr)
+extern void iOSNotificationsWrapper__ScheduleLocalNotification_m4F901D298DEB899D3E28229AF7B4401660F476D3 ();
+// 0x00000037 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::_SetNotificationReceivedDelegate(Unity.Notifications.iOS.iOSNotificationsWrapper_NotificationReceivedCallback)
+extern void iOSNotificationsWrapper__SetNotificationReceivedDelegate_m363297CE6CE661F68760DACF5F0F82D5F3382357 ();
+// 0x00000038 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::_SetRemoteNotificationReceivedDelegate(Unity.Notifications.iOS.iOSNotificationsWrapper_NotificationReceivedCallback)
+extern void iOSNotificationsWrapper__SetRemoteNotificationReceivedDelegate_m10CE9B582E43A999BADF8FB1ABE6E0AEB28A7FDA ();
+// 0x00000039 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::_SetAuthorizationRequestReceivedDelegate(Unity.Notifications.iOS.iOSNotificationsWrapper_AuthorizationRequestCallback)
+extern void iOSNotificationsWrapper__SetAuthorizationRequestReceivedDelegate_mD75E7C4E7C7A6CED0293E31765A5885BF9C4B35C ();
+// 0x0000003A System.IntPtr Unity.Notifications.iOS.iOSNotificationsWrapper::_GetNotificationSettings()
+extern void iOSNotificationsWrapper__GetNotificationSettings_m8CABEFD845927E5E30F447E2D1EA87EEDCC08B09 ();
+// 0x0000003B System.Int32 Unity.Notifications.iOS.iOSNotificationsWrapper::_GetScheduledNotificationDataCount()
+extern void iOSNotificationsWrapper__GetScheduledNotificationDataCount_mEEBA7222DA52EF627763D71509F38DB94940206E ();
+// 0x0000003C System.IntPtr Unity.Notifications.iOS.iOSNotificationsWrapper::_GetScheduledNotificationDataAt(System.Int32)
+extern void iOSNotificationsWrapper__GetScheduledNotificationDataAt_m2112911929348F235E1A86D7B83C5B892967E714 ();
+// 0x0000003D System.Int32 Unity.Notifications.iOS.iOSNotificationsWrapper::_GetDeliveredNotificationDataCount()
+extern void iOSNotificationsWrapper__GetDeliveredNotificationDataCount_mFB47185B7B95333A58FD13B0C24830561546304F ();
+// 0x0000003E System.IntPtr Unity.Notifications.iOS.iOSNotificationsWrapper::_GetDeliveredNotificationDataAt(System.Int32)
+extern void iOSNotificationsWrapper__GetDeliveredNotificationDataAt_m7240C990927BAFC8371E453F87CD659F47EB5680 ();
+// 0x0000003F System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::_RemoveScheduledNotification(System.String)
+extern void iOSNotificationsWrapper__RemoveScheduledNotification_m2883E237E95AD3BAB35D3D68A40D2F0CCAECD175 ();
+// 0x00000040 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::_RemoveAllScheduledNotifications()
+extern void iOSNotificationsWrapper__RemoveAllScheduledNotifications_m70DECB7DF21179FAF479CA2FB06D082A2F2C7A3F ();
+// 0x00000041 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::_RemoveDeliveredNotification(System.String)
+extern void iOSNotificationsWrapper__RemoveDeliveredNotification_m2A703DD7A7975A3E2ACA09088E806A869197149D ();
+// 0x00000042 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::_SetApplicationBadge(System.Int32)
+extern void iOSNotificationsWrapper__SetApplicationBadge_m7A159E4AD133AEAF471C5DD883AB21CFBC37D120 ();
+// 0x00000043 System.Int32 Unity.Notifications.iOS.iOSNotificationsWrapper::_GetApplicationBadge()
+extern void iOSNotificationsWrapper__GetApplicationBadge_m8D7669E17F0E0EBBBC7FA6AEFA44B294C0CC5672 ();
+// 0x00000044 System.Boolean Unity.Notifications.iOS.iOSNotificationsWrapper::_GetAppOpenedUsingNotification()
+extern void iOSNotificationsWrapper__GetAppOpenedUsingNotification_mE65A279F2D6A41C0ED3D52DC9BD8D14FEEEBE9A6 ();
+// 0x00000045 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::_RemoveAllDeliveredNotifications()
+extern void iOSNotificationsWrapper__RemoveAllDeliveredNotifications_mD16EFD4673109F3475259839F7939F1E9E74924E ();
+// 0x00000046 System.IntPtr Unity.Notifications.iOS.iOSNotificationsWrapper::_GetLastNotificationData()
+extern void iOSNotificationsWrapper__GetLastNotificationData_mA218BDD1A1DE5305674150E48E6A35347840AA68 ();
+// 0x00000047 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::_FreeUnmanagedStruct(System.IntPtr)
+extern void iOSNotificationsWrapper__FreeUnmanagedStruct_mF3AD5E1C5994F6C9D4202938DADDD0A1E3EE6095 ();
+// 0x00000048 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::RegisterAuthorizationRequestCallback()
+extern void iOSNotificationsWrapper_RegisterAuthorizationRequestCallback_m3E440F5B8EC1B93CD028B82AD56F4D4CEA393B09 ();
+// 0x00000049 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::RegisterOnReceivedRemoteNotificationCallback()
+extern void iOSNotificationsWrapper_RegisterOnReceivedRemoteNotificationCallback_m704006DD49795B9AD24DE22229A103C46C218E38 ();
+// 0x0000004A System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::RegisterOnReceivedCallback()
+extern void iOSNotificationsWrapper_RegisterOnReceivedCallback_mC632044738B230A3F2C4B9EC6F40983590C0C654 ();
+// 0x0000004B System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::AuthorizationRequestReceived(System.IntPtr)
+extern void iOSNotificationsWrapper_AuthorizationRequestReceived_m0B9514890D5292A398583EB5FB52C84E89EF2C44 ();
+// 0x0000004C System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::RemoteNotificationReceived(System.IntPtr)
+extern void iOSNotificationsWrapper_RemoteNotificationReceived_m7892270BF1067E6B09F2AD79891BD9C0E7B5E2EC ();
+// 0x0000004D System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::NotificationReceived(System.IntPtr)
+extern void iOSNotificationsWrapper_NotificationReceived_m15A8B9969D3B760901868EED3ECD57F6251D3F8E ();
+// 0x0000004E System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::RequestAuthorization(System.Int32,System.Boolean)
+extern void iOSNotificationsWrapper_RequestAuthorization_m3CDC2B24E164CB900647647A1E7E403729744DA1 ();
+// 0x0000004F Unity.Notifications.iOS.iOSNotificationSettings Unity.Notifications.iOS.iOSNotificationsWrapper::GetNotificationSettings()
+extern void iOSNotificationsWrapper_GetNotificationSettings_m2EF48F45F4214C512AB7B831E235E43E3D45EEB7 ();
+// 0x00000050 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::ScheduleLocalNotification(Unity.Notifications.iOS.iOSNotificationData)
+extern void iOSNotificationsWrapper_ScheduleLocalNotification_m586932E29D8B00E1A20A3ECF6DD1FC1EB26123EB ();
+// 0x00000051 Unity.Notifications.iOS.iOSNotificationData[] Unity.Notifications.iOS.iOSNotificationsWrapper::GetDeliveredNotificationData()
+extern void iOSNotificationsWrapper_GetDeliveredNotificationData_m6CD497233458F93AD76535CD43409084B75FBB60 ();
+// 0x00000052 Unity.Notifications.iOS.iOSNotificationData[] Unity.Notifications.iOS.iOSNotificationsWrapper::GetScheduledNotificationData()
+extern void iOSNotificationsWrapper_GetScheduledNotificationData_m9703F377E5207667BB79C5556B39BC734DECAF51 ();
+// 0x00000053 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::SetApplicationBadge(System.Int32)
+extern void iOSNotificationsWrapper_SetApplicationBadge_mDAF5DD283255733D681DD19511BE1016F6AF95FC ();
+// 0x00000054 System.Int32 Unity.Notifications.iOS.iOSNotificationsWrapper::GetApplicationBadge()
+extern void iOSNotificationsWrapper_GetApplicationBadge_mF418560135A3704728EB77CE44A621E377E965CE ();
+// 0x00000055 System.Boolean Unity.Notifications.iOS.iOSNotificationsWrapper::GetAppOpenedUsingNotification()
+extern void iOSNotificationsWrapper_GetAppOpenedUsingNotification_m27B7347FECBBF94BA257B69918E12C985A3FFF87 ();
+// 0x00000056 System.Nullable`1<Unity.Notifications.iOS.iOSNotificationData> Unity.Notifications.iOS.iOSNotificationsWrapper::GetLastNotificationData()
+extern void iOSNotificationsWrapper_GetLastNotificationData_mC2434D4A9E96E2D2CEDFFB013F1F823165900125 ();
+// 0x00000057 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper::.ctor()
+extern void iOSNotificationsWrapper__ctor_mDC79460B4C8C438B97091AF3D4D8E38B410A1461 ();
+// 0x00000058 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper_AuthorizationRequestCallback::.ctor(System.Object,System.IntPtr)
+extern void AuthorizationRequestCallback__ctor_m73B765EC0995B5B174379ACAF70E93A857FBB1B5 ();
+// 0x00000059 System.Void Unity.Notifications.iOS.iOSNotificationsWrapper_AuthorizationRequestCallback::Invoke(System.IntPtr)
+extern void AuthorizationRequestCallback_Invoke_m3F9E761D9744D4033B7287BAB074C24707CF0870 ();
+// 0x0000005A System.IAsyncResult Unity.Notifications.iOS.iOSNotificationsWrapper_AuthorizationRequestCallback::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void AuthorizationRequestCallback_BeginInvoke_m895E3AFF02A699B132BA6C7D03313B53A7BB91E7 ();
+// 0x0000005B System.Void Unity.Notifications.iOS.iOSNotificationsWrapper_AuthorizationRequestCallback::EndInvoke(System.IAsyncResult)
+extern void AuthorizationRequestCallback_EndInvoke_mA719082D7002B65D3B8802E3EBC079CD8A810856 ();
+// 0x0000005C System.Void Unity.Notifications.iOS.iOSNotificationsWrapper_NotificationReceivedCallback::.ctor(System.Object,System.IntPtr)
+extern void NotificationReceivedCallback__ctor_m5DBBA71545C75619DF41ABA7567123E9B14F7A5D ();
+// 0x0000005D System.Void Unity.Notifications.iOS.iOSNotificationsWrapper_NotificationReceivedCallback::Invoke(System.IntPtr)
+extern void NotificationReceivedCallback_Invoke_mCF01BEA3E7D714EABDFFAE059B2A0DF0048D844C ();
+// 0x0000005E System.IAsyncResult Unity.Notifications.iOS.iOSNotificationsWrapper_NotificationReceivedCallback::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void NotificationReceivedCallback_BeginInvoke_m60E1D2AA8BC1A9D1693F5D6051324160E2C5AAAB ();
+// 0x0000005F System.Void Unity.Notifications.iOS.iOSNotificationsWrapper_NotificationReceivedCallback::EndInvoke(System.IAsyncResult)
+extern void NotificationReceivedCallback_EndInvoke_m587707498DFCE71901F653DB1A5EF4B8104E63D5 ();
+static Il2CppMethodPointer s_methodPointers[95] = 
+{
+	iOSNotification_set_Identifier_m0FE3E82FE6D9BCFCD869D7B2828046CC8E0F1D2C,
+	iOSNotification_set_CategoryIdentifier_m5C3578B780BF192292015164EBA3D184A3DC62E7,
+	iOSNotification_set_ThreadIdentifier_m8490EBCA321051DAB22B314A1EFD8F0B82E086A9,
+	iOSNotification_set_Title_mCE7950DDE7F07E7A311C8B0285D7F0361DA545E7,
+	iOSNotification_set_Subtitle_m1A7B33D06A7E6F7A36CD3A02B4A317437D458FE3,
+	iOSNotification_set_Body_m9D5CAFA5C34626CF4A0E82CA31B528D7F865FE98,
+	iOSNotification_set_ShowInForeground_m1785C04DD53C52E9CCB9296CDFDC310B721767F1,
+	iOSNotification_set_ForegroundPresentationOption_m52D2F50E111F887CB1AFEB447FB06FF8C062C930,
+	iOSNotification_get_Data_m8B57E0DCD9ADF972A2A3BA3A06A1B61DAFE87F17,
+	iOSNotification_set_Data_mF99458275C22949D52305B3B76615FB7CFDE0407,
+	iOSNotification_set_Trigger_m697D4E1EA33C328BAB37B1E1199B4D1D92D29ECE,
+	iOSNotification__ctor_m6D7A48CC3DDF0E0F8637B72AAB3865C38AAF1021,
+	iOSNotification__ctor_m6A4F6FCE4D0EB26D5D101ABF056D835D26E85674,
+	iOSNotificationLocationTrigger_get_Type_mAD6EE7678084A9AF883C67970B948914622028EB,
+	iOSNotificationLocationTrigger_get_Center_m4D05E6A08ACB04CB28161C053FD8F44264231912_AdjustorThunk,
+	iOSNotificationLocationTrigger_get_Radius_m9B7631C5EEA1FC5C5D6AF9EA192C116BA17B7873_AdjustorThunk,
+	iOSNotificationLocationTrigger_get_NotifyOnEntry_m92862B7E2AAA2731DB9F1BAE5656A68046B9AD17_AdjustorThunk,
+	iOSNotificationLocationTrigger_get_NotifyOnExit_m0E16244BD95BD77F19DDEEF3115278E9319C623B_AdjustorThunk,
+	iOSNotificationTimeIntervalTrigger_get_Type_m9C339D4E98CEFE0B44DA8A24B05D1690476B1116,
+	iOSNotificationTimeIntervalTrigger_set_TimeInterval_mA8D518C2F510F3917081552D8361DF975BC15AE3_AdjustorThunk,
+	iOSNotificationTimeIntervalTrigger_get_Repeats_mDBE8EB76AFB1BF0BFFD30EFA1FA67956061F2D4B_AdjustorThunk,
+	iOSNotificationTimeIntervalTrigger_set_Repeats_m307A5902AD61CD35BB11B17024931CB2CA53849E_AdjustorThunk,
+	iOSNotificationCalendarTrigger_get_Type_m826168462BB6FFC0D945CBFE618A67126F85675B,
+	iOSNotificationCalendarTrigger_get_Year_mBBCED3DDF15A9E843C813CB365E24CE55687E75D_AdjustorThunk,
+	iOSNotificationCalendarTrigger_get_Month_m0DF590657656E149DC90E7D63CA9E575105103D1_AdjustorThunk,
+	iOSNotificationCalendarTrigger_get_Day_mF30D77FF88E0730D47C3DDC6DF4CADC350F589AD_AdjustorThunk,
+	iOSNotificationCalendarTrigger_get_Hour_m384BE74AD4DC2FEDD2310DCD77D7B353B9AF3D4C_AdjustorThunk,
+	iOSNotificationCalendarTrigger_get_Minute_m7AC063853B8B4DF3ECF996B3188901304C935A2A_AdjustorThunk,
+	iOSNotificationCalendarTrigger_get_Second_mA4751D11679102E3F60CF1973003D0A916A2BBFF_AdjustorThunk,
+	iOSNotificationCalendarTrigger_get_Repeats_mA056204B0FD6839466C691EBB03196253D850439_AdjustorThunk,
+	iOSNotificationCenter_Initialize_m8E140449CE45E01DEF3D3B64704FC15A6F802F30,
+	iOSNotificationCenter_GetLastRespondedNotification_m0FA87E439B933EFA568B4BFED97CEE8B1C3094CC,
+	iOSNotificationCenter_RemoveAllScheduledNotifications_m4E7E85B5BBE66984B3B8000691F49A7CB5728D3D,
+	iOSNotificationCenter_RemoveAllDeliveredNotifications_mCCEE21CC9AEE369D499F050198D260083DB25328,
+	iOSNotificationCenter_ScheduleNotification_mF05108B3E65917BC05B25615F280D0764B08A3CA,
+	iOSNotificationCenter_onReceivedRemoteNotification_m2A9BB7A51DC29BDA203595DDEE5762B115893EDA,
+	iOSNotificationCenter_onSentNotification_m9F136BE7C08D6938CDC4BC02BB0B6873D7510B31,
+	iOSNotificationCenter_onFinishedAuthorizationRequest_m48B8078CB367A66D0A9E13B1734F7310CC9B7A79,
+	iOSNotificationCenter__cctor_m1BF4E25CF195A7AD6155931A6D13878707CBFBF1,
+	NotificationReceivedCallback__ctor_m77868881D517501310180FCF0E528357596B4CC9,
+	NotificationReceivedCallback_Invoke_mE95F6C6AE41D6E8C65B78EAE908899BA05D1A1A4,
+	NotificationReceivedCallback_BeginInvoke_m29E617166ACC183B35F1A812131F2538749ED5D5,
+	NotificationReceivedCallback_EndInvoke_m7CB038002697C11D0501E7AF2622DCA3A88B02E7,
+	AuthorizationRequestCompletedCallback__ctor_m5062FC79DA5A3F6A3D78BB8F075D9807327A667F,
+	AuthorizationRequestCompletedCallback_Invoke_m3BBF26929CDEF40853EFFB9F86F8190082C3F5FD,
+	AuthorizationRequestCompletedCallback_BeginInvoke_mC6AF9367C08237BF86E371A3268505CB5C75AD00,
+	AuthorizationRequestCompletedCallback_EndInvoke_mCD857E6CAD35EC1238E6E94A9054B435BED45EFC,
+	U3CU3Ec__cctor_mD0D1AFA0A6458CCA98B59749D14AEF846E60B19E,
+	U3CU3Ec__ctor_mF28B20E1637C3E25D81593EAE5E400DE93D00215,
+	U3CU3Ec_U3C_cctorU3Eb__37_0_m7D2F7EC015976494580E6AE364931F86F043CFE9,
+	U3CU3Ec_U3C_cctorU3Eb__37_1_mFDB7D5BC81ED0A4AFB1E88E44709727F61998F21,
+	U3CU3Ec_U3C_cctorU3Eb__37_2_mC2696DD88D007A9F3F3D63D39CD7D9358242392C,
+	iOSNotificationsWrapper__RequestAuthorization_m40962C59E37C30F1A4FE32BAC587F491D6FE8BEA,
+	iOSNotificationsWrapper__ScheduleLocalNotification_m4F901D298DEB899D3E28229AF7B4401660F476D3,
+	iOSNotificationsWrapper__SetNotificationReceivedDelegate_m363297CE6CE661F68760DACF5F0F82D5F3382357,
+	iOSNotificationsWrapper__SetRemoteNotificationReceivedDelegate_m10CE9B582E43A999BADF8FB1ABE6E0AEB28A7FDA,
+	iOSNotificationsWrapper__SetAuthorizationRequestReceivedDelegate_mD75E7C4E7C7A6CED0293E31765A5885BF9C4B35C,
+	iOSNotificationsWrapper__GetNotificationSettings_m8CABEFD845927E5E30F447E2D1EA87EEDCC08B09,
+	iOSNotificationsWrapper__GetScheduledNotificationDataCount_mEEBA7222DA52EF627763D71509F38DB94940206E,
+	iOSNotificationsWrapper__GetScheduledNotificationDataAt_m2112911929348F235E1A86D7B83C5B892967E714,
+	iOSNotificationsWrapper__GetDeliveredNotificationDataCount_mFB47185B7B95333A58FD13B0C24830561546304F,
+	iOSNotificationsWrapper__GetDeliveredNotificationDataAt_m7240C990927BAFC8371E453F87CD659F47EB5680,
+	iOSNotificationsWrapper__RemoveScheduledNotification_m2883E237E95AD3BAB35D3D68A40D2F0CCAECD175,
+	iOSNotificationsWrapper__RemoveAllScheduledNotifications_m70DECB7DF21179FAF479CA2FB06D082A2F2C7A3F,
+	iOSNotificationsWrapper__RemoveDeliveredNotification_m2A703DD7A7975A3E2ACA09088E806A869197149D,
+	iOSNotificationsWrapper__SetApplicationBadge_m7A159E4AD133AEAF471C5DD883AB21CFBC37D120,
+	iOSNotificationsWrapper__GetApplicationBadge_m8D7669E17F0E0EBBBC7FA6AEFA44B294C0CC5672,
+	iOSNotificationsWrapper__GetAppOpenedUsingNotification_mE65A279F2D6A41C0ED3D52DC9BD8D14FEEEBE9A6,
+	iOSNotificationsWrapper__RemoveAllDeliveredNotifications_mD16EFD4673109F3475259839F7939F1E9E74924E,
+	iOSNotificationsWrapper__GetLastNotificationData_mA218BDD1A1DE5305674150E48E6A35347840AA68,
+	iOSNotificationsWrapper__FreeUnmanagedStruct_mF3AD5E1C5994F6C9D4202938DADDD0A1E3EE6095,
+	iOSNotificationsWrapper_RegisterAuthorizationRequestCallback_m3E440F5B8EC1B93CD028B82AD56F4D4CEA393B09,
+	iOSNotificationsWrapper_RegisterOnReceivedRemoteNotificationCallback_m704006DD49795B9AD24DE22229A103C46C218E38,
+	iOSNotificationsWrapper_RegisterOnReceivedCallback_mC632044738B230A3F2C4B9EC6F40983590C0C654,
+	iOSNotificationsWrapper_AuthorizationRequestReceived_m0B9514890D5292A398583EB5FB52C84E89EF2C44,
+	iOSNotificationsWrapper_RemoteNotificationReceived_m7892270BF1067E6B09F2AD79891BD9C0E7B5E2EC,
+	iOSNotificationsWrapper_NotificationReceived_m15A8B9969D3B760901868EED3ECD57F6251D3F8E,
+	iOSNotificationsWrapper_RequestAuthorization_m3CDC2B24E164CB900647647A1E7E403729744DA1,
+	iOSNotificationsWrapper_GetNotificationSettings_m2EF48F45F4214C512AB7B831E235E43E3D45EEB7,
+	iOSNotificationsWrapper_ScheduleLocalNotification_m586932E29D8B00E1A20A3ECF6DD1FC1EB26123EB,
+	iOSNotificationsWrapper_GetDeliveredNotificationData_m6CD497233458F93AD76535CD43409084B75FBB60,
+	iOSNotificationsWrapper_GetScheduledNotificationData_m9703F377E5207667BB79C5556B39BC734DECAF51,
+	iOSNotificationsWrapper_SetApplicationBadge_mDAF5DD283255733D681DD19511BE1016F6AF95FC,
+	iOSNotificationsWrapper_GetApplicationBadge_mF418560135A3704728EB77CE44A621E377E965CE,
+	iOSNotificationsWrapper_GetAppOpenedUsingNotification_m27B7347FECBBF94BA257B69918E12C985A3FFF87,
+	iOSNotificationsWrapper_GetLastNotificationData_mC2434D4A9E96E2D2CEDFFB013F1F823165900125,
+	iOSNotificationsWrapper__ctor_mDC79460B4C8C438B97091AF3D4D8E38B410A1461,
+	AuthorizationRequestCallback__ctor_m73B765EC0995B5B174379ACAF70E93A857FBB1B5,
+	AuthorizationRequestCallback_Invoke_m3F9E761D9744D4033B7287BAB074C24707CF0870,
+	AuthorizationRequestCallback_BeginInvoke_m895E3AFF02A699B132BA6C7D03313B53A7BB91E7,
+	AuthorizationRequestCallback_EndInvoke_mA719082D7002B65D3B8802E3EBC079CD8A810856,
+	NotificationReceivedCallback__ctor_m5DBBA71545C75619DF41ABA7567123E9B14F7A5D,
+	NotificationReceivedCallback_Invoke_mCF01BEA3E7D714EABDFFAE059B2A0DF0048D844C,
+	NotificationReceivedCallback_BeginInvoke_m60E1D2AA8BC1A9D1693F5D6051324160E2C5AAAB,
+	NotificationReceivedCallback_EndInvoke_m587707498DFCE71901F653DB1A5EF4B8104E63D5,
+};
+static const int32_t s_InvokerIndices[95] = 
+{
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	31,
+	32,
+	14,
+	26,
+	26,
+	23,
+	26,
+	106,
+	1368,
+	718,
+	89,
+	89,
+	106,
+	940,
+	89,
+	31,
+	106,
+	766,
+	766,
+	766,
+	766,
+	766,
+	766,
+	89,
+	49,
+	4,
+	3,
+	3,
+	166,
+	2122,
+	2122,
+	2123,
+	3,
+	128,
+	26,
+	216,
+	26,
+	128,
+	2124,
+	2125,
+	26,
+	3,
+	23,
+	26,
+	26,
+	2124,
+	1792,
+	25,
+	166,
+	166,
+	166,
+	755,
+	106,
+	590,
+	106,
+	590,
+	166,
+	3,
+	166,
+	176,
+	106,
+	49,
+	3,
+	755,
+	25,
+	3,
+	3,
+	3,
+	25,
+	25,
+	25,
+	1792,
+	2126,
+	2122,
+	4,
+	4,
+	176,
+	106,
+	49,
+	2127,
+	23,
+	128,
+	7,
+	826,
+	26,
+	128,
+	7,
+	826,
+	26,
+};
+static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[3] = 
+{
+	{ 0x0600004B, 8,  (void**)&iOSNotificationsWrapper_AuthorizationRequestReceived_m0B9514890D5292A398583EB5FB52C84E89EF2C44_RuntimeMethod_var, 0 },
+	{ 0x0600004C, 9,  (void**)&iOSNotificationsWrapper_RemoteNotificationReceived_m7892270BF1067E6B09F2AD79891BD9C0E7B5E2EC_RuntimeMethod_var, 0 },
+	{ 0x0600004D, 10,  (void**)&iOSNotificationsWrapper_NotificationReceived_m15A8B9969D3B760901868EED3ECD57F6251D3F8E_RuntimeMethod_var, 0 },
+};
+extern const Il2CppCodeGenModule g_Unity_Notifications_iOSCodeGenModule;
+const Il2CppCodeGenModule g_Unity_Notifications_iOSCodeGenModule = 
+{
+	"Unity.Notifications.iOS.dll",
+	95,
+	s_methodPointers,
+	s_InvokerIndices,
+	3,
+	s_reversePInvokeIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+};

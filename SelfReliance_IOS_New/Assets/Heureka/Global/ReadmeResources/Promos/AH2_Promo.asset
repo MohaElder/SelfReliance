@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312ef3862be95544daf14a84810fef28, type: 3}
+  m_Name: AH2_Promo
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 2800000, guid: 7551eed766f54a1419bbcf72ee19a591, type: 3}
+  PackageShowPrio: 80
+  AssetName: Asset Hunter 2
+  Subheader: Project Cleaning
+  AssetIdentifier: Heureka.AssetHunter
+  Description: "Asset Hunter 2 is the top project cleaning tool of the Asset Store.\nUsing
+    it is simple and it allows for one-button cleanup.\n\nIs this a tool for me?  \nAre
+    you trying to go below a certain buildsize? \nAre all the old placeholder graphics
+    and models cluttering up your project?\nDidn't you ever get around to delete the
+    auto generated materials after model import? \nDo you have bunch of assets in
+    your project, but is only using a small number of them? \nDoes it seem like too
+    large a task to remove obsolete assets?\n\nIf any of the above applies to you,
+    Asset Hunter is the tool for you.\n\nAsset Hunter is a tool that analyzes your
+    buildlog and gives you an easily understandable overview over unused assets in
+    your project folder.  The results are grouped into folders and file types, making
+    it easy to start cleaning up your project. Additionally it lists the uncompressed
+    size of all the assets used in the build, enabling you to better downsize your
+    buildsize. If you want to know which scenes are using a specific asset, Asset
+    Hunter can tell you that too!"
+  Links:
+  - ActiveLink: 1
+    Name: Asset Store
+    Link: https://assetstore.unity.com/packages/slug/22983
+  - ActiveLink: 1
+    Name: Documentation
+    Link: http://heureka.dk/wp-content/uploads/2017/08/Documentation.pdf
+  - ActiveLink: 1
+    Name: Forum Thread
+    Link: https://forum.unity.com/threads/asset-hunter-2-removes-unused-assets-from-project.274173/
+  - ActiveLink: 1
+    Name: Youtube
+    Link: https://youtu.be/KiRTy-G2Oyk

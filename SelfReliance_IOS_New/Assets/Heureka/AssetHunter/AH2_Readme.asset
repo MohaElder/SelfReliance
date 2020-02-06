@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b27603d2be0e81488eb446378c435df, type: 3}
+  m_Name: AH2_Readme
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 2800000, guid: 7551eed766f54a1419bbcf72ee19a591, type: 3}
+  PackageShowPrio: 80
+  AssetName: Asset Hunter 2
+  Subheader: Project Cleaning
+  AssetIdentifier: Heureka.AssetHunter
+  Description: "How to use the tool:\r\nTo open the Asset Hunter window, goto \"Window->Asset
+    Hunter\" or press ctrl+h\n\n1. First you need to make a build after you opened
+    your project\r\n2. Open the window\r\n3. Press the yellow \"refresh\" button\r\n4.
+    Now select to either view \"Unused Assets\" or \"Build Report\"\r\n\r\nExcluded
+    from search since these are special case folders and filetypes:\r\n\r\nThe following
+    folders are excluded\r\n/plugins/\r\n/streamingassets/\r\n/resources/\r\n/editor
+    default resources/\r\n/editor/"
+  Links:
+  - ActiveLink: 0
+    Name: Asset Store
+    Link: https://assetstore.unity.com/packages/slug/22983
+  - ActiveLink: 1
+    Name: Documentation
+    Link: http://heureka.dk/wp-content/uploads/2017/08/Documentation.pdf
+  - ActiveLink: 1
+    Name: Forum Thread
+    Link: https://forum.unity.com/threads/asset-hunter-2-removes-unused-assets-from-project.274173/
+  - ActiveLink: 1
+    Name: Youtube
+    Link: https://youtu.be/KiRTy-G2Oyk
+  VersionData:
+  - VersionNum:
+      Major: 1
+      Minor: 0
+      Patch: 0
+    VersionChanges:
+    - Initial submit
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 1
+      Minor: 0
+      Patch: 1
+    VersionChanges:
+    - Changed minimum unity version
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 1
+      Minor: 0
+      Patch: 2
+    VersionChanges:
+    - Reduced file sizes of PDFs and images
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 1
+      Minor: 1
+      Patch: 0
+    VersionChanges:
+    - Created workaround for Unity Resource leak
+    - No longer serializes larger depth
+    - UI modifications
+    - Takes the new buildoutput from 4.6b20 under consideration
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 1
+      Minor: 1
+      Patch: 1
+    VersionChanges:
+    - Added "Collapse" and "Expand" buttons
+    - Fixed rare issue with Out Of Memory when traversing used assets
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 1
+      Minor: 2
+      Patch: 0
+    VersionChanges:
+    - Added a way to find all the scenes a given asset exists in
+    - Added nullreference protection while parsing the editor log
+    - Removed delegate logic since they could not be serialized
+    - Automatically detects empty folders and removes then after having deleted assets
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 1
+      Minor: 2
+      Patch: 1
+    VersionChanges:
+    - Improved the way asset/scene dependencies are visualized
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 1
+      Minor: 3
+      Patch: 0
+    VersionChanges:
+    - Added settings to allow for manually excluding types and folders (i.e. exclude
+      Third Party Editor Extensions)
+    - Removed absolute path reliance. (You can now move the Heureka Folder where you
+      want to)
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 1
+      Minor: 3
+      Patch: 1
+    VersionChanges:
+    - Now recognizes icons and Win8 certificates (Not splash since it cannot be reached
+      through the API)
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 1
+      Minor: 3
+      Patch: 2
+    VersionChanges: []
+    FoldOut: 0
+    versionDescription: Made sure it compiles on Windows Store builds
+  - VersionNum:
+      Major: 1
+      Minor: 3
+      Patch: 3
+    VersionChanges:
+    - Unity5 ready
+    - Fixed issue when user have own editor script named PlayerSettings
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 1
+      Minor: 3
+      Patch: 4
+    VersionChanges:
+    - Fixed issue when user have own script named Environment
+    - Fixed issue when user have own script named EditorUtils
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 1
+      Minor: 3
+      Patch: 5
+    VersionChanges:
+    - Fixed issue with Unity changing build log format in 5.2.1
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 1
+      Minor: 3
+      Patch: 6
+    VersionChanges:
+    - Added select/deselect all functionality for types
+    - Cleanup/Refactor
+    - Added foldout for assemblies
+    - The "Delete Folder" confirmation window now states which folder it will delete
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 0
+      Patch: 0
+    VersionChanges:
+    - Improvements to UI
+    - 'New feature: All deleted assets can now be automatically backed up in an unitypackage'
+    - 'New feature: Added manual "Delete empty folders" functionality'
+    - 'New feature: Added direct link to build settings'
+    - 'New feature: Asset Hunter settings now allows to exclude assets by path substring'
+    - 'New feature: Asset "AssetHunterSceneOverview" which allows you to locate enabled/disabled
+      and unreferenced scenes'
+    - 'New feature: All used asset have their filesize listed'
+    - 'New feature: All folders with used asset have their local and total filesize
+      listed'
+    - Made sure a new settings file is generated if none exist
+    - Added window pane titlecontent
+    - "Improved base empty folder deletetion to ignore the following filetypes:\r\n\t\".meta\"
+      \r\n\t\"thumbs.db\"\r\n\t\".orig\"\r\n\t\".ds_store\"\r\n\t\".workspace.mel\"\r\n\t\".mayaswatches\""
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 1
+      Patch: 0
+    VersionChanges:
+    - Modified the warnings for irregular assets in build log
+    - Greatly improved performance when reading log
+    - Added option for forced memory cleanup in settings
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 1
+      Patch: 1
+    VersionChanges:
+    - Reinstated per-folder OutOfMemory safeguard to fix rare Unity crash
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 1
+      Patch: 2
+    VersionChanges:
+    - Fixed issue with case-sensitive string comparison
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 1
+      Patch: 3
+    VersionChanges:
+    - Changed "delete all" description
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 1
+      Patch: 4
+    VersionChanges:
+    - New namespace
+    - Refactoring
+    - Fixed 2017 Beta compile issue
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 1
+      Patch: 5
+    VersionChanges:
+    - Fixed issue with missing functionality if build created had no asset dependencies
+    - Renamed script files (Might need to delete old version manually)
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 1
+      Patch: 6
+    VersionChanges:
+    - Optimized comparisons
+    - Now ignores *.dll and *.mdb files
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 1
+      Patch: 7
+    VersionChanges:
+    - Improved representation of file sizes. No longer using buildlog directly
+    - Minor performance optimizations
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 2
+      Patch: 0
+    VersionChanges:
+    - Started rework of the API
+    - Now you can exclude folders, types and assets directly from code
+    - 'example: HeurekaGames.AssetHunter.AssetHunterSettings.ExcludeIndividualAssetWithID(string
+      id)'
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 3
+      Patch: 0
+    VersionChanges:
+    - Fixed issue with Profiling namespace in Unity 5.5.0f3
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 4
+      Patch: 0
+    VersionChanges:
+    - Fixed a faulty way of calculating size of used assets. Now using the correct
+      imported size
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 5
+      Patch: 0
+    VersionChanges:
+    - Added info for user while processing
+    - Made sure settings file is path agnostic
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 6
+      Patch: 0
+    VersionChanges:
+    - Performance update
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 6
+      Patch: 1
+    VersionChanges:
+    - Excludes asmdef
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 6
+      Patch: 2
+    VersionChanges:
+    - Added readme window
+    FoldOut: 0
+    versionDescription: 
+  - VersionNum:
+      Major: 2
+      Minor: 6
+      Patch: 3
+    VersionChanges:
+    - Added filesize to list of assemblies
+    FoldOut: 0
+    versionDescription: 
