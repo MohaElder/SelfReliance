@@ -3,7 +3,10 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
-Output/
+SelfReliance_Android/
+SelfReliance_Android_Google/
+SelfReliance_IOS_NEW/
+ANDROID_KEY_IMPORTANT_DONT_DELETE/
 Assets/AssetStoreTools*
 
 # Visual Studio cache directory
