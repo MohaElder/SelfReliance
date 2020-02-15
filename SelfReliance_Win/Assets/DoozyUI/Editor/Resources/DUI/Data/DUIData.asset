@@ -1011,7 +1011,6 @@ MonoBehaviour:
     categories:
     - categoryName: Flip
       presets:
-      - {fileID: 11400000, guid: df3666e8982c91d43b8cea933d540c58, type: 2}
       - {fileID: 11400000, guid: e54f7bcfbdedcc64bbae15ce08774fef, type: 2}
       - {fileID: 11400000, guid: 79f3e466f3073404e90b3c6f50b39352, type: 2}
       - {fileID: 11400000, guid: d36846411f6af1748883dc7de2933a37, type: 2}
@@ -1032,7 +1031,6 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 8d029ff940563bf4280b655f248b3881, type: 2}
       - {fileID: 11400000, guid: cf352098ba9278a49abd20b0dd830a19, type: 2}
       presetNames:
-      - Horizontal180
       - Horizontal180In
       - Horizontal180Out
       - Horizontal360
