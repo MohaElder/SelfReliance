@@ -204,6 +204,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &492410871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 492410872}
+  - component: {fileID: 492410873}
+  m_Layer: 0
+  m_Name: Language Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &492410872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492410871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 924.46246, y: 1414.3448, z: -2008.4575}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &492410873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492410871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 856e8b9c961e79d4cbba207a998cf3a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terms:
+  - TermSymbol: clipA
+    translations:
+    - TranslationType: 1
+      Content: "\u4F60\u597D"
+    - TranslationType: 2
+      Content: Hello
+  DefaultLanguage: 1
 --- !u!114 &699788760 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2936834024543753391, guid: 20e508802ba55ab4aafe3e9be09cebad,
@@ -252,10 +303,10 @@ MonoBehaviour:
     - https://eroducate.oss-cn-beijing.aliyuncs.com/5/FA1C1.mp4
     Ending: 0
     choices:
-    - choiceText: asasas
+    - TextSymbol: clipA
       NextClipNum: 0
       Correctness: 1
-    - choiceText: cccc
+    - TextSymbol: clipA
       NextClipNum: 0
       Correctness: 0
     ChoiceType: 1
@@ -269,6 +320,7 @@ MonoBehaviour:
     type: 3}
   ThreeChoices: {fileID: 4536414666760437174, guid: 9bfb42fe25779bc43b0991aa78ceb2c0,
     type: 3}
+  MainMenuLevelName: 
 --- !u!4 &883229173
 Transform:
   m_ObjectHideFlags: 0

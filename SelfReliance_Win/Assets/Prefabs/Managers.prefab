@@ -1,0 +1,522 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1238192773948310529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1238192773948310528}
+  - component: {fileID: 1238192773948310543}
+  m_Layer: 0
+  m_Name: Language Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1238192773948310528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238192773948310529}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 540.0163, y: 349.375, z: 3.6202555}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1238192774909134677}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1238192773948310543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238192773948310529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 856e8b9c961e79d4cbba207a998cf3a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terms:
+  - TermSymbol: clip1A
+    translations:
+    - TranslationType: 1
+      Content: "\u4E0D\u884C\uFF0C\u4E0D\u7BA1\u600E\u6837\u90FD\u8981\u56DE\u5BB6"
+    - TranslationType: 2
+      Content: No, I must go home
+  - TermSymbol: clip1B
+    translations:
+    - TranslationType: 1
+      Content: "\u597D\u5427\uFF0C\u90A3\u5C31\u4F4F\u4E00\u665A"
+    - TranslationType: 2
+      Content: Fine, I will stay
+  - TermSymbol: clip2A
+    translations:
+    - TranslationType: 1
+      Content: "\u4E0D\u4E70\u907F\u5B55\u5957"
+    - TranslationType: 2
+      Content: Do it without Condoms
+  - TermSymbol: clip2B
+    translations:
+    - TranslationType: 1
+      Content: "\u4E0B\u697C\u53BB\u4E70\u907F\u5B55\u5957"
+    - TranslationType: 2
+      Content: Go downstairs to buy condom
+  - TermSymbol: clip3A
+    translations:
+    - TranslationType: 1
+      Content: "\u53BB\u4E70\u907F\u5B55\u68D2\u68C0\u67E5"
+    - TranslationType: 2
+      Content: Check pregnancy with Pregnancy Test Stick
+  - TermSymbol: clip3B
+    translations:
+    - TranslationType: 1
+      Content: "\u5E94\u8BE5\u6CA1\u90A3\u4E48\u5012\u9709\uFF0C\u7B97\u4E86"
+    - TranslationType: 2
+      Content: No worries
+  - TermSymbol: clip3C
+    translations:
+    - TranslationType: 1
+      Content: "\u5411\u5988\u5988\u5766\u767D"
+    - TranslationType: 2
+      Content: Confess to Mom
+  - TermSymbol: clip4A
+    translations:
+    - TranslationType: 1
+      Content: "\u8DDF\u5BB6\u91CC\u4EBA\u8BB2"
+    - TranslationType: 2
+      Content: Tell the family
+  - TermSymbol: clip4B
+    translations:
+    - TranslationType: 1
+      Content: "\u8DDF\u7537\u53CB\u8BB2"
+    - TranslationType: 2
+      Content: Tell your Boyfriend
+  - TermSymbol: clip4C
+    translations:
+    - TranslationType: 1
+      Content: "\u81EA\u95ED"
+    - TranslationType: 2
+      Content: No worries
+  - TermSymbol: clip5A
+    translations:
+    - TranslationType: 1
+      Content: "\u8DDF\u5BB6\u957F\u5766\u767D\u5E76\u9009\u62E9\u540E\u7EED\u5904\u7406"
+    - TranslationType: 2
+      Content: Tell the family
+  - TermSymbol: clip5B
+    translations:
+    - TranslationType: 1
+      Content: "\u8DDF\u5979\u79C1\u5954"
+    - TranslationType: 2
+      Content: Run away with her
+  - TermSymbol: clip5C
+    translations:
+    - TranslationType: 1
+      Content: "\u6E9C\u4E4B\u5927\u5409"
+    - TranslationType: 2
+      Content: Run away
+  - TermSymbol: clip6A
+    translations:
+    - TranslationType: 1
+      Content: "\u5815\u80CE"
+    - TranslationType: 2
+      Content: Abortion
+  - TermSymbol: clip6B
+    translations:
+    - TranslationType: 1
+      Content: "\u629A\u517B"
+    - TranslationType: 2
+      Content: Raise the kid
+  DefaultLanguage: 1
+--- !u!1 &1238192774413334849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1238192774413334848}
+  - component: {fileID: 1238192774413334863}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1238192774413334848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238192774413334849}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 540.0163, y: 349.375, z: 3.6202555}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1238192774909134677}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1238192774413334863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238192774413334849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96475f524a617a44b875691579a7d6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MediaPlayer: {fileID: 0}
+  clips:
+  - PlayList:
+    - https://eroducate.oss-cn-beijing.aliyuncs.com/1/1-1.mp4
+    Ending: 0
+    choices:
+    - TextSymbol: clip1A
+      NextClipNum: 1
+      Correctness: 2
+    - TextSymbol: clip1B
+      NextClipNum: 2
+      Correctness: 1
+    ChoiceType: 1
+    Importance: 1
+  - PlayList:
+    - https://eroducate.oss-cn-beijing.aliyuncs.com/1/1-1A.mp4
+    Ending: 1
+    choices: []
+    ChoiceType: 1
+    Importance: 1
+  - PlayList:
+    - https://eroducate.oss-cn-beijing.aliyuncs.com/1/1-1B.mp4
+    Ending: 0
+    choices:
+    - TextSymbol: clip2A
+      NextClipNum: 4
+      Correctness: 1
+    - TextSymbol: clip2B
+      NextClipNum: 3
+      Correctness: 2
+    ChoiceType: 1
+    Importance: 2
+  - PlayList:
+    - https://eroducate.oss-cn-beijing.aliyuncs.com/1/1-2A.mp4
+    Ending: 1
+    choices: []
+    ChoiceType: 1
+    Importance: 1
+  - PlayList:
+    - https://eroducate.oss-cn-beijing.aliyuncs.com/1/1-2B.mp4
+    Ending: 0
+    choices:
+    - TextSymbol: clip3A
+      NextClipNum: 5
+      Correctness: 1
+    - TextSymbol: clip3B
+      NextClipNum: 6
+      Correctness: 2
+    - TextSymbol: clip3C
+      NextClipNum: 7
+      Correctness: 1
+    ChoiceType: 2
+    Importance: 2
+  - PlayList:
+    - https://eroducate.oss-cn-beijing.aliyuncs.com/1/1-3A.mp4
+    Ending: 0
+    choices:
+    - TextSymbol: clip4A
+      NextClipNum: 7
+      Correctness: 1
+    - TextSymbol: clip4B
+      NextClipNum: 8
+      Correctness: 1
+    - TextSymbol: clip4C
+      NextClipNum: 6
+      Correctness: 2
+    ChoiceType: 2
+    Importance: 3
+  - PlayList:
+    - https://eroducate.oss-cn-beijing.aliyuncs.com/1/1-3B.mp4
+    Ending: 1
+    choices: []
+    ChoiceType: 1
+    Importance: 1
+  - PlayList:
+    - https://eroducate.oss-cn-beijing.aliyuncs.com/1/1-3C.mp4
+    Ending: 1
+    choices: []
+    ChoiceType: 1
+    Importance: 1
+  - PlayList:
+    - https://eroducate.oss-cn-beijing.aliyuncs.com/1/1-4.mp4
+    Ending: 0
+    choices:
+    - TextSymbol: clip5A
+      NextClipNum: 9
+      Correctness: 1
+    - TextSymbol: clip5B
+      NextClipNum: 10
+      Correctness: 2
+    - TextSymbol: clip5C
+      NextClipNum: 11
+      Correctness: 2
+    ChoiceType: 2
+    Importance: 2
+  - PlayList:
+    - https://eroducate.oss-cn-beijing.aliyuncs.com/1/1-4D_1.mp4
+    Ending: 0
+    choices:
+    - TextSymbol: clip6A
+      NextClipNum: 12
+      Correctness: 1
+    - TextSymbol: clip6B
+      NextClipNum: 13
+      Correctness: 1
+    ChoiceType: 1
+    Importance: 1
+  - PlayList:
+    - https://eroducate.oss-cn-beijing.aliyuncs.com/1/1-4A%201.mp4
+    Ending: 1
+    choices: []
+    ChoiceType: 1
+    Importance: 1
+  - PlayList:
+    - https://eroducate.oss-cn-beijing.aliyuncs.com/1/1-4B.mp4
+    Ending: 1
+    choices: []
+    ChoiceType: 1
+    Importance: 1
+  - PlayList:
+    - https://eroducate.oss-cn-beijing.aliyuncs.com/1/1-5A.mp4
+    Ending: 1
+    choices: []
+    ChoiceType: 1
+    Importance: 1
+  - PlayList:
+    - https://eroducate.oss-cn-beijing.aliyuncs.com/1/1-5B.mp4
+    Ending: 1
+    choices: []
+    ChoiceType: 1
+    Importance: 1
+  SuperText: Very Good
+  StandardText: OK
+  FailedText: Failed
+  EndGameMenu: {fileID: 0}
+  AchievementManager: {fileID: 1238192775292615209}
+  TwoChoices: {fileID: 7558451944348059610, guid: b1958d3505f7aea44a32150e34557e8d,
+    type: 3}
+  ThreeChoices: {fileID: 4536414666760437174, guid: 9bfb42fe25779bc43b0991aa78ceb2c0,
+    type: 3}
+  MainMenuLevelName: level0
+--- !u!1 &1238192774909134678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1238192774909134677}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1238192774909134677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238192774909134678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 540.0163, y: 349.375, z: 3.6202555}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1238192774413334848}
+  - {fileID: 1238192773948310528}
+  - {fileID: 1238192775292615208}
+  - {fileID: 1311472096911105499}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1238192775292615209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1238192775292615208}
+  - component: {fileID: 1238192775292615223}
+  m_Layer: 0
+  m_Name: Achievement Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1238192775292615208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238192775292615209}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 540.0163, y: 349.375, z: 3.6202555}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1238192774909134677}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1238192775292615223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238192775292615209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef33fb2c4905f34bb72e64e8555ca0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1238192774830846731
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1238192774909134677}
+    m_Modifications:
+    - target: {fileID: 1253916736711584, guid: 61aa926b0a5c4324695d8f2dd6d79731, type: 3}
+      propertyPath: m_Name
+      value: ToastManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 61aa926b0a5c4324695d8f2dd6d79731, type: 3}
+--- !u!224 &1311472096911105499 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 224539141344751312, guid: 61aa926b0a5c4324695d8f2dd6d79731,
+    type: 3}
+  m_PrefabInstance: {fileID: 1238192774830846731}
+  m_PrefabAsset: {fileID: 0}
